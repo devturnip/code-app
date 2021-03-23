@@ -7,3 +7,8 @@
 3. http://localhost:3000/api/results/storeindb
     - **/api/results/storeindb** : (POST) endpoint
     which calls python script and stores result into result table.
+
+
+### Notes
+- Database username & pw is stored in .env
+- .env is stored in repo to share credentials used in localdb.
