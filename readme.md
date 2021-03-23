@@ -10,5 +10,8 @@
 
 
 ### Notes
-- Database username & pw is stored in .env
-- .env is stored in repo to share credentials used in localdb.
+- "npm start" runs nodemon index.js (defined in package.json , scripts, start)
+- Local database username & pw is stored in .env
+    - Modify it if required.
+- .env is stored in repo to share credentials used only in localdb (if needed).
+- If required, local db dump file stored in *dump* > *chua.sql*

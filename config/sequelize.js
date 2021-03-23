@@ -6,8 +6,4 @@ const sequelize = new Sequelize('chua', process.env.DB_USER, process.env.DB_PASS
     dialect: "mysql",
 });
 
-try {
-    module.exports = sequelize;
-} catch (error) {
-    console.log('Error: ', error);
-}
+module.exports = sequelize;
